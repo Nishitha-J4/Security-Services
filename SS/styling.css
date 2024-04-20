@@ -1,0 +1,67 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+    font-family: "https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap";
+
+}
+.about{
+    width:100%;
+    padding:78px 0px;
+    background-color: #000000;
+}
+.about img{
+    height: 520px;
+    width: 520px;
+}
+.about-text{
+     width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+     color: #ffffff;
+     font-size: 80px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+}
+.about-text h5{
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: red;
+}
+.about-text p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family: "https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap";
+}
+button{
+    background:red;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background:transparent ;
+    border:2px solid red ;
+    cursor: pointer;
+}
