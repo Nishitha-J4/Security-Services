@@ -502,9 +502,9 @@ header span{
     footer{
         position:static;
     }
-    /* header{
+    header{
         padding-top: 40px;
-    } */
+    }
 }
 .footer-distributed{
     background-color: #2d2a30;
@@ -636,5 +636,3 @@ header span{
         margin-left: 0;
     }
 }
-
-
